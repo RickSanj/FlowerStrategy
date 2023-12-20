@@ -11,8 +11,8 @@ import org.junit.jupiter.api.Assertions;
 public class DeliveryTests {
     @Test
     public void testDHLDelivery() {
-        DHLDeliveryStrategy dhlDelivery = new DHLDeliveryStrategy();
-        Assertions.assertEquals("Items were delivered by DHL!", dhlDelivery.deliver());
+        DHLDeliveryStrategy d = new DHLDeliveryStrategy();
+        Assertions.assertEquals("Items were delivered by DHL!", d.deliver());
     }
 
     @Test

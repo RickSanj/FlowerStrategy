@@ -12,5 +12,5 @@ public class Application {
     @GetMapping("list/")
     public String hello() {
         return "Smile";
-	}
+    }
 }
