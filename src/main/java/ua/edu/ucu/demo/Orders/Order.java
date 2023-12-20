@@ -21,7 +21,7 @@ public class Order {
 
     public double calculateTotalPrice() {
         double total = 0;
-        for(Item flower:items) {
+        for (Item flower:items) {
             total += flower.getPrice();
         }
         return total;
@@ -31,11 +31,11 @@ public class Order {
         return "Preping the order";
     }
 
-    public void addItem(Item item) {
+    public void addItem (Item item) {
         items.add(item);
     }
     
-    public void removeItem(Item item) {
+    public void removeItem (Item item) {
         items.remove(item);
     }
 }

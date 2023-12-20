@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/api/flowers/")
 public class Application {
-	@GetMapping("list/")
-	public String hello() {
-		return "Smile";
+    @GetMapping("list/")
+    public String hello() {
+        return "Smile";
 	}
 }

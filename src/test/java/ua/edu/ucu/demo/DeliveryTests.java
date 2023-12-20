@@ -12,8 +12,7 @@ public class DeliveryTests {
     @Test
     public void testDHLDelivery() {
         DHLDeliveryStrategy dhlDelivery = new DHLDeliveryStrategy();
-        String result = dhlDelivery.deliver();
-        Assertions.assertEquals("Items were delivered by DHL!", result);
+        Assertions.assertEquals("Items were delivered by DHL!", dhlDelivery.deliver());
     }
 
     @Test
