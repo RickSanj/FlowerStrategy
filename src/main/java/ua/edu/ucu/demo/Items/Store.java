@@ -1,4 +1,4 @@
-package ua.edu.ucu.demo.Items;
+package ua.edu.ucu.demo.items;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -2,7 +2,7 @@ package ua.edu.ucu.demo.flowers;
 
 import lombok.Getter;
 import lombok.Setter;
-import ua.edu.ucu.demo.Items.Item;
+import ua.edu.ucu.demo.items.Item;
 
 @Setter
 public class Flower extends Item {
