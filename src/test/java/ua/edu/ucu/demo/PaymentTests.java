@@ -9,14 +9,13 @@ import org.junit.jupiter.api.Assertions;
 
 public class PaymentTests {
     @Test
-public void testCardPay() {
+    public void testCardPay() {
     CreditCardPaymentStrategy cp = new CreditCardPaymentStrategy();
-    double price = 100.0; // Replace with the desired price
+    double price = 0.0; // Replace with the desired price
     String exp = "Trying to pay " + price + "$ by Credit card";
     String r = cp.pay(price);
     Assertions.assertEquals(exp, r, "Payment message is incorrect");
 }
-
 
     @Test
     public void testPaymentPay() {
